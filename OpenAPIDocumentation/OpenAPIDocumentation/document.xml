@@ -1,0 +1,25 @@
+﻿<?xml version="1.0"?>
+<doc>
+	<assembly>
+		<name>OpenAPIDocumentation</name>
+	</assembly>
+	<members>
+		<member name="M:OpenAPIDocumentation.Controllers.WeatherForecastController.Get">
+			<summary>
+				Performs Get Operation
+			</summary>
+			<returns></returns>
+			<response code="201">No Content</response>
+			<response code="400">If the item is null</response>
+		</member>
+		<member name="M:OpenAPIDocumentation.Controllers.WeatherForecastController.Post(System.String)">
+			<summary>
+				Performs Post Operation
+			</summary>
+			<param name="summary" description="Rainy"></param>
+			<returns></returns>
+			<response code="201">Returns No Content</response>
+			<response code="204">Undocumented Error</response>
+		</member>
+	</members>
+</doc>
